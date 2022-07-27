@@ -30,7 +30,7 @@ namespace application_hook_ctrl_up_down
 
         private void onControlLeft(object sender, EventArgs e)
         {           
-            BackColor = Color.LightGreen;
+            BackColor = Color.LightSalmon;
             BorderStyle = BorderStyle.None;
             if(flowLayoutPanel.Controls.Count != 0)
             {
@@ -48,7 +48,7 @@ namespace application_hook_ctrl_up_down
         }
         private void onControlRight(object sender, EventArgs e)
         {
-            BackColor = Color.LightBlue;
+            BackColor = Color.LightGreen;
             BorderStyle = BorderStyle.None;
             var button = new Button
                 {
