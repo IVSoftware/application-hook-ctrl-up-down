@@ -1,8 +1,8 @@
 # application-hook-ctrl-up-down
 Installing Hotkeys using MessageFilter
 
-The example implements a [IMessageFilter](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.imessagefilter?view=windowsdesktop-6.0) in the MainForm and to
-the `WM_KEYDOWN` message for Control-Left and Control-Right. These events are consumed by a `UserControlResponder` that will add and remove buttons based on Control-Right and Control-Left respectively.
+The example implements a [IMessageFilter](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.imessagefilter?view=windowsdesktop-6.0) in the MainForm in order to
+intercept the `WM_KEYDOWN` message for Control-Left and Control-Right. These events are consumed by a `UserControlResponder` that will add and remove buttons based on Control-Right and Control-Left respectively.
 
 ![screenshot](https://github.com/IVSoftware/application-hook-ctrl-up-down/blob/master/application-hook-ctrl-up-down/ReadMe/screenshot.png)
 
