@@ -10,7 +10,6 @@ namespace application_hook_ctrl_up_down
 {
     public partial class UserControlResponder : UserControl
     {
-
         public UserControlResponder()
         {
             InitializeComponent();
@@ -43,12 +42,10 @@ namespace application_hook_ctrl_up_down
                 flowLayoutPanel.Controls.RemoveAt(flowLayoutPanel.Controls.Count - 1);
             }
         }
-
         private void onAnyButtonClick(object sender, EventArgs e)
         {
             ((MainForm)Parent).Text = $"{((Button)sender).Text} Clicked";
         }
-
         private void onControlRight(object sender, EventArgs e)
         {
             BackColor = Color.LightBlue;
